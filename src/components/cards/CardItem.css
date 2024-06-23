@@ -1,0 +1,64 @@
+.carditem-container {
+    min-height: 24rem;
+    width: 20rem;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 8px #999;
+    display: flex;
+    margin: 0.5rem;
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    flex-flow: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    transition: border-color 0.3s ease;
+    border: 5px solid transparent;
+  }
+
+
+  .carditem-container.clicked {
+    border-color: #3498db;
+}
+  
+.card-img{
+    width: 20rem;
+    height: auto;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card-header {
+    max-width: 20rem;
+    margin: 0.5rem 5%;
+    word-break: break-all;
+}
+  
+.card-body {
+    margin: 0.5rem 5%;
+    color: rgb(117, 117, 117);
+    font-size: 14px;
+}
+.button {
+    bottom: 0;
+    min-width: 85%;
+    background-color: #3498db;
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    margin-top: 10px;
+    margin-bottom: 12px;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    font-weight: bold;
+}
+
+.button:hover {
+  background-color: #2980b9; 
+}
+
+.button-wrapper{
+    text-align: center;
+    margin-top: auto;
+}

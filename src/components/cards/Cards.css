@@ -1,0 +1,26 @@
+.cardsContainer {
+  display: flex;
+  align-items: center;
+  width: 10rem;
+  margin: 0 auto;
+  flex-flow: column; 
+  z-index: 1;
+  }
+
+.cardsWrapper{
+  width: 100%;
+  position: relative;
+  margin: 50px 0 45px;
+  display: flex; 
+}
+
+.cardsList{
+  display: flex;
+  flex-flow: row;
+}
+
+@media screen and (max-width: 1080px) {
+  .cardsList{
+    flex-flow: row wrap;
+  }
+}
